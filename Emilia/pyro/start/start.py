@@ -45,7 +45,7 @@ async def starttt(client, message):
             ]
             
             await message.reply_text(
-                START_TEXT.format(Mention_user, START_PIC),
+                START_TEXT.format(BOT_NAME, START_PIC),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 disable_web_page_preview=False,
             )
