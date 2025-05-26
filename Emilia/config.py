@@ -8,26 +8,26 @@ def get_user_list(config, key):
 
 
 class Config(object):
-    API_HASH = "45aabfac" # API_HASH from my.telegram.org
-    API_ID = 62 # API_ID from my.telegram.org
+    API_HASH = "4f6d1b67cf101aea5cf0536885aa1b82" # API_HASH from my.telegram.org
+    API_ID = 27322718 # API_ID from my.telegram.org
 
-    BOT_ID = 521 # BOT_ID
-    BOT_USERNAME = "Elf_Robot" # BOT_USERNAME
+    BOT_ID = 7572317246 # BOT_ID
+    BOT_USERNAME = "seishiroxrenamerbot" # BOT_USERNAME
 
-    MONGO_DB_URL = "mongodb://username:password@localhost:27017/emi?directConnection=true&authSource=admin" # MongoDB URL from MongoDB Atlas
+    MONGO_DB_URL = "mongodb+srv://seishiroatanime:Y3FQIzJbCXMWQc9S@cluster0.ymttr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" # MongoDB URL from MongoDB Atlas
 
-    SUPPORT_CHAT = "SpiralTechDivision" # Support Chat Username
-    UPDATE_CHANNEL = "SpiralUpdates" # Update Channel Username
-    START_PIC = "https://pic-bstarstatic.akamaized.net/ugc/9e98b6c8872450f3e8b19e0d0aca02deff02981f.jpg@1200w_630h_1e_1c_1f.webp" # Start Image
+    SUPPORT_CHAT = "Seishiro_anime_chat" # Support Chat Username
+    UPDATE_CHANNEL = "seishiro_atanime" # Update Channel Username
+    START_PIC = "https://ibb.co/DH3N4Lyr" # Start Image
     DEV_USERS = [6040984893, 6461051572, 7107018652] # Dev Users
-    TOKEN = "57375" # Bot Token from @BotFather
-    CLONE_LIMIT = 50 # Number of clones your bot can make
+    TOKEN = "7572317246:AAH1NDpYS4illUWyWSRlRwIUvwEwhEDHlBo" # Bot Token from @BotFather
+    CLONE_LIMIT = 0 # Number of clones your bot can make
 
-    EVENT_LOGS = -10093 # Event Logs Chat ID
-    OWNER_ID = 6040984893 # Owner ID
+    EVENT_LOGS = -1002369506236 # Event Logs Chat ID
+    OWNER_ID = 6701907262 # Owner ID
  
     TEMP_DOWNLOAD_DIRECTORY = "./" # Temporary Download Directory
-    BOT_NAME = "Emilia" # Bot Name
+    BOT_NAME = "Seishiro Group Manger" # Bot Name
     WALL_API = "6950f53" # Wall API from wall.alphacoders.com
     ORIGINAL_EVENT_LOOP = True # Do not Change
 
