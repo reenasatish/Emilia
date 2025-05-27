@@ -14,6 +14,8 @@ class Config(object):
     BOT_ID = 7572317246 # BOT_ID
     BOT_USERNAME = "seishiroxrenamerbot" # BOT_USERNAME
 
+    PORT = os.environ.get("PORT", "8080")
+
     MONGO_DB_URL = "mongodb+srv://seishiroatanime:Y3FQIzJbCXMWQc9S@cluster0.ymttr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" # MongoDB URL from MongoDB Atlas
 
     SUPPORT_CHAT = "Seishiro_anime_chat" # Support Chat Username
