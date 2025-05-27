@@ -13,14 +13,14 @@ from Emilia.utils.decorators import *
 from Emilia.tele.clone import startpic
 
 START_TEXT = """
-<b><blockquote>Hello {mention_user}<b><blockquote>
+<b><blockquote>Welcome to  [{}]({})<b><blockquote>
 
-This bot give varieties of features such as
+<b><blockquote>This bot give varieties of features such as
 ➩ Group Management
 ➩ Spammer Protection
 ➩ Fun like chatbot
 ➩ Ranking, AI System
-➩ Anime Loaded Modules
+➩ Anime Loaded Modules<b><blockquote>
 
 Use the buttons buttons or /help to checkout even more!
 """
