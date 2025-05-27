@@ -13,7 +13,7 @@ from Emilia.utils.decorators import *
 from Emilia.tele.clone import startpic
 
 START_TEXT = """
-<b><blockquote>Hello {mention_user}<b><blockquote>
+<b><blockquote>Welcome to  [{}]({})<b><blockquote>
 
 This bot give varieties of features such as
 ➩ Group Management
@@ -45,7 +45,7 @@ async def starttt(client, message):
             ]
             
             await message.reply_text(
-                START_TEXT.format(Mention_user, START_PIC),
+                START_TEXT.format(BOT_TOKEN, START_PIC),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 disable_web_page_preview=False,
             )
